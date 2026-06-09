@@ -31,6 +31,17 @@ To open a new container, click the "Create Container" button (indicated by the r
 
 Here, give the container a name, make sure to set the Compute Image to "SDSS" and include the Data Volume "SDSS SAS". Once these options are selected, create your container:
 
-![](created_container.png)
+![](images/created_container.png)
 
 Click on your container name, which will open it and allow you to work on the tutorials!
+
+## Adding Tutorials to SciServer Container
+
+You can clone this repository directly to this container. Specifically, you want to do this within "Storage", which is your permenant storage for smaller files. Go to `Storage/<YOUR_USERNAME>/persistent`. From here, click git icon (fourth icon down), which will option the options:
+
+![](images/storage.png)
+
+From here, click on the "Clone a Repository" button. This will open a dialogue box, where you can put the link to this repository: <https://github.com/imedan/nfc_sdss5.git>. This will clone the contents of this repository!
+
+Going further into `nfc_sdss5/tutorials` will then navigate you to the tutorials we will work on! You can select either of them and rerun them in full, as well as add new cells with your own code.
+
